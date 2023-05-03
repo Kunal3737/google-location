@@ -1,10 +1,13 @@
 import "./App.css";
-import MapContainer from "./MapContainer";
+import CityList from "./components/CityList";
+import Location from "./components/Location";
 
 function App() {
   return (
     <div className="App">
-      <MapContainer />
+      <Location />
+      <hr />
+      <CityList />
     </div>
   );
 }
