@@ -1,0 +1,91 @@
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.5 5h15l-7.5 10z'/%3E%3C/svg%3E")
+    no-repeat;
+  background-position: right 10px center;
+  background-size: 12px 12px;
+}
+
+.error {
+  border: 1px solid #ff0000 !important;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: -12px;
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+
+.tc-error {
+  margin-top: 8px;
+}
+
+.register-btn {
+  width: 150px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  height: 40px;
+  background-color: #fff;
+  margin-right: 12px;
+}
+
+.right-panel {
+  color: #fff;
+  width: 50%;
+  background-color: #cb574a;
+  padding: 20px;
+}
+
+.right-panel .error-message {
+  color: #000 !important;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 100px;
+  width: 60%;
+  margin-top: 30px;
+}
+
+.left-panel-content {
+  width: 40%;
+  padding: 20px;
+}
+
+.zip-place-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.zip-code-wrapper {
+  width: 28%;
+}
+
+.place-wrapper {
+  width: 65%;
+}
+
+.terms-wrapper {
+  margin-bottom: 12px;
+}

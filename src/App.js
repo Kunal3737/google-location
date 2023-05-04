@@ -1,13 +1,15 @@
 import "./App.css";
 import CityList from "./components/CityList";
+import Form from "./components/Form/Form";
 import Location from "./components/Location";
 
 function App() {
   return (
-    <div className="App">
-      <Location />
+    <div>
+      {/* <Location />
       <hr />
-      <CityList />
+      <CityList /> */}
+      <Form />
     </div>
   );
 }
